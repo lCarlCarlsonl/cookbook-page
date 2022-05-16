@@ -1,0 +1,14 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header,
+.footer{
+    display:flex;
+    align-items:center;
+    background-color: #1f2937;
+    color:white;
+}
