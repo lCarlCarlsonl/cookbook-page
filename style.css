@@ -8,7 +8,50 @@
 .header,
 .footer{
     display:flex;
-    align-items:center;
+    flex-direction:row;
+    justify-content:space-between;
     background-color: #1f2937;
     color:white;
+    padding-inline: 50px;
+    /*need to align footer text somehow... not a full box?*/
+
+}
+
+.logo{
+    font-size:24px;
+    color:#F9FAF8;
+}
+
+ul{
+    display:flex;
+    flex-direction:row;
+    gap:16px;
+    margin:5px;
+    list-style-type:none;
+}
+
+.hero{
+    display:flex;
+    flex-direction:column;
+}
+
+.hero1{
+    display:flex;
+    flex-direction:row;
+    background-color: #1f2937;
+    color:white;
+    padding: 100px;
+
+}
+
+.hero2{
+    display:flex;
+    flex-direction:column;
+    color: #F9FAF8;
+    font-size:48px;
+}
+.hero3 {
+    color: #E5E7EB;
+    font-size:18px
+
 }
