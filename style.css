@@ -109,12 +109,48 @@ img.rounded-corner{
 
 .quote{
     display:flex;
+    flex-direction: column;
     align-items:center;
     background-color:#E5E7Eb;
     font-size:36px;
     font-style:italic;
     color:#1F2937;
+    padding: 100px;
+}
+
+.quote.credit{
+    text-align:right;
+    font-style:bold;
+}
+
+.mail{
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%; 
+    padding-top:30px;
+    padding-bottom:50px;  
+
+}
+
+.signup{
+    background-color: #3882f6;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    margin: 80px;
+    flex-direction: row;
 
 
+}
+
+.butt3{
+    border-radius: 5px;
+    background-color:#3882F6;
+    border-color:white;
+    color: white;
+    padding: 5px;
+    font-weight:900;
 
 }
